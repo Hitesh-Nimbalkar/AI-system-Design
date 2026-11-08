@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{
+			"id":"b0eed1bf76498844",
+			"type":"text",
+			"text":"A2A",
+			"styleAttributes":{},
+			"x":100,
+			"y":-540,
+			"width":340,
+			"height":300,
+			"color":"2"
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"bdb5b31388e4369a"
+	}
+}
