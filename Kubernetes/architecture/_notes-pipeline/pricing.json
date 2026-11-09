@@ -1,0 +1,16 @@
+{
+  "_comment": "USD per 1M tokens, OFF-PEAK. Peak hours cost peak_multiplier x. Edit and restart; no code change needed. Source: api-docs.deepseek.com/quick_start/pricing (Nov 2026).",
+  "usd_inr": 88.0,
+  "peak_multiplier": 2.0,
+  "thinking_output_multiplier": 1.9,
+  "peak_hours_utc": [[1, 4], [6, 10]],
+  "models": {
+    "deepseek-flash": { "input": 0.15, "cache_hit": 0.003, "output": 0.60 },
+    "deepseek-v4-pro": { "input": 0.66, "cache_hit": 0.022, "output": 1.98 }
+  },
+  "aliases": {
+    "deepseek-chat": "deepseek-flash",
+    "deepseek-reasoner": "deepseek-flash"
+  },
+  "default_model": "deepseek-flash"
+}

@@ -1,0 +1,6 @@
+# runtime artifacts
+.cache/
+__pycache__/
+*.pyc
+
+# (output/ is NOT ignored - generated notes are your deliverables)
